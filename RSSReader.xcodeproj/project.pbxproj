@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D10795119F3736900BB60DC /* MyUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10795019F3736900BB60DC /* MyUITableView.swift */; };
+		6D88BD8D19F2A434008391F8 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88BD8619F2A434008391F8 /* arrow@2x.png */; };
+		6D88BD8E19F2A434008391F8 /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8719F2A434008391F8 /* Refresh.swift */; };
+		6D88BD8F19F2A434008391F8 /* RefreshBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8819F2A434008391F8 /* RefreshBaseView.swift */; };
+		6D88BD9019F2A434008391F8 /* RefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8919F2A434008391F8 /* RefreshConst.swift */; };
+		6D88BD9119F2A434008391F8 /* RefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8A19F2A434008391F8 /* RefreshFooterView.swift */; };
+		6D88BD9219F2A434008391F8 /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8B19F2A434008391F8 /* RefreshHeaderView.swift */; };
+		6D88BD9319F2A434008391F8 /* UIScrollView+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BD8C19F2A434008391F8 /* UIScrollView+Refresh.swift */; };
+		6DAA295119F3617F008277D9 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA294F19F3617F008277D9 /* ENSideMenu.swift */; };
+		6DAA295219F3617F008277D9 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA295019F3617F008277D9 /* ENSideMenuNavigationController.swift */; };
+		6DAA295519F362C9008277D9 /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA295319F362C9008277D9 /* MyMenuTableViewController.swift */; };
+		6DAA295619F362C9008277D9 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA295419F362C9008277D9 /* MyNavigationController.swift */; };
 		AA8AA144194362C900C3888B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8AA143194362C900C3888B /* logo.png */; };
 		AAC02B19193DEEFE003997F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC02B18193DEEFE003997F3 /* AppDelegate.swift */; };
 		AAC02B1B193DEEFE003997F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC02B1A193DEEFE003997F3 /* ViewController.swift */; };
@@ -28,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D10795019F3736900BB60DC /* MyUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUITableView.swift; sourceTree = "<group>"; };
+		6D88BD8619F2A434008391F8 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		6D88BD8719F2A434008391F8 /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
+		6D88BD8819F2A434008391F8 /* RefreshBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshBaseView.swift; sourceTree = "<group>"; };
+		6D88BD8919F2A434008391F8 /* RefreshConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshConst.swift; sourceTree = "<group>"; };
+		6D88BD8A19F2A434008391F8 /* RefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshFooterView.swift; sourceTree = "<group>"; };
+		6D88BD8B19F2A434008391F8 /* RefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshHeaderView.swift; sourceTree = "<group>"; };
+		6D88BD8C19F2A434008391F8 /* UIScrollView+Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Refresh.swift"; sourceTree = "<group>"; };
+		6DAA294F19F3617F008277D9 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		6DAA295019F3617F008277D9 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		6DAA295319F362C9008277D9 /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		6DAA295419F362C9008277D9 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		AA8AA143194362C900C3888B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		AAC02B13193DEEFE003997F3 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC02B17193DEEFE003997F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,8 +64,9 @@
 		AAC02B2B193DEEFE003997F3 /* RSSReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSReaderTests.swift; sourceTree = "<group>"; };
 		AAC02B35193DF2B8003997F3 /* RSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAC02B39193DF344003997F3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEA7BFD3515B7CA3DFBC8147 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AFE16BB7AB9C49C5B4EFAE90 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E885CC41F32F4E3AA56367A0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		ECA2C55BFA90385D803BE6CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +88,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D88BD8519F2A434008391F8 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				6D88BD8619F2A434008391F8 /* arrow@2x.png */,
+				6D88BD8719F2A434008391F8 /* Refresh.swift */,
+				6D88BD8819F2A434008391F8 /* RefreshBaseView.swift */,
+				6D88BD8919F2A434008391F8 /* RefreshConst.swift */,
+				6D88BD8A19F2A434008391F8 /* RefreshFooterView.swift */,
+				6D88BD8B19F2A434008391F8 /* RefreshHeaderView.swift */,
+				6D88BD8C19F2A434008391F8 /* UIScrollView+Refresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		70D9030181EEE9A3CE822DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2C55BFA90385D803BE6CF /* Pods.debug.xcconfig */,
+				AEA7BFD3515B7CA3DFBC8147 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		70FA9D20B8584551BECCAF8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +126,8 @@
 				AAC02B15193DEEFE003997F3 /* RSSReader */,
 				AAC02B28193DEEFE003997F3 /* RSSReaderTests */,
 				AAC02B14193DEEFE003997F3 /* Products */,
-				E885CC41F32F4E3AA56367A0 /* Pods.xcconfig */,
 				70FA9D20B8584551BECCAF8B /* Frameworks */,
+				70D9030181EEE9A3CE822DD5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +143,11 @@
 		AAC02B15193DEEFE003997F3 /* RSSReader */ = {
 			isa = PBXGroup;
 			children = (
+				6DAA295319F362C9008277D9 /* MyMenuTableViewController.swift */,
+				6DAA295419F362C9008277D9 /* MyNavigationController.swift */,
+				6DAA294F19F3617F008277D9 /* ENSideMenu.swift */,
+				6DAA295019F3617F008277D9 /* ENSideMenuNavigationController.swift */,
+				6D88BD8519F2A434008391F8 /* Refresh */,
 				AA8AA143194362C900C3888B /* logo.png */,
 				AAC02B18193DEEFE003997F3 /* AppDelegate.swift */,
 				AAC02B1A193DEEFE003997F3 /* ViewController.swift */,
@@ -102,6 +155,7 @@
 				AAC02B1F193DEEFE003997F3 /* Images.xcassets */,
 				AAC02B16193DEEFE003997F3 /* Supporting Files */,
 				AAC02B35193DF2B8003997F3 /* RSSReader-Bridging-Header.h */,
+				6D10795019F3736900BB60DC /* MyUITableView.swift */,
 			);
 			path = RSSReader;
 			sourceTree = "<group>";
@@ -214,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8AA144194362C900C3888B /* logo.png in Resources */,
+				6D88BD8D19F2A434008391F8 /* arrow@2x.png in Resources */,
 				AAC02B3A193DF344003997F3 /* Podfile in Resources */,
 				AAC02B1E193DEEFE003997F3 /* Main.storyboard in Resources */,
 				AAC02B20193DEEFE003997F3 /* Images.xcassets in Resources */,
@@ -257,7 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -267,8 +322,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D88BD8E19F2A434008391F8 /* Refresh.swift in Sources */,
+				6D88BD8F19F2A434008391F8 /* RefreshBaseView.swift in Sources */,
+				6D88BD9019F2A434008391F8 /* RefreshConst.swift in Sources */,
+				6D88BD9119F2A434008391F8 /* RefreshFooterView.swift in Sources */,
+				6D88BD9219F2A434008391F8 /* RefreshHeaderView.swift in Sources */,
 				AAC02B1B193DEEFE003997F3 /* ViewController.swift in Sources */,
+				6DAA295119F3617F008277D9 /* ENSideMenu.swift in Sources */,
+				6DAA295519F362C9008277D9 /* MyMenuTableViewController.swift in Sources */,
 				AAC02B19193DEEFE003997F3 /* AppDelegate.swift in Sources */,
+				6D10795119F3736900BB60DC /* MyUITableView.swift in Sources */,
+				6DAA295619F362C9008277D9 /* MyNavigationController.swift in Sources */,
+				6DAA295219F3617F008277D9 /* ENSideMenuNavigationController.swift in Sources */,
+				6D88BD9319F2A434008391F8 /* UIScrollView+Refresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +449,7 @@
 		};
 		AAC02B30193DEEFE003997F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E885CC41F32F4E3AA56367A0 /* Pods.xcconfig */;
+			baseConfigurationReference = ECA2C55BFA90385D803BE6CF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -398,7 +464,7 @@
 		};
 		AAC02B31193DEEFE003997F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E885CC41F32F4E3AA56367A0 /* Pods.xcconfig */;
+			baseConfigurationReference = AEA7BFD3515B7CA3DFBC8147 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

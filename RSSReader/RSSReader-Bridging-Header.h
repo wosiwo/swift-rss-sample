@@ -6,3 +6,4 @@
 #import "MWFeedParser.h"
 #import <AFNetworking/UIImageView+AFNetworking.h>
 #import <KINWebBrowser/KINWebBrowserViewController.h>
+#import <CommonCrypto/CommonCrypto.h>

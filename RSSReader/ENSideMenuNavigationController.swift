@@ -47,8 +47,9 @@ class ENSideMenuNavigationController: UINavigationController, ENSideMenuProtocol
             self.viewControllers = [contentViewController]
             break
         default:
+            println("default")
             contentViewController.navigationItem.hidesBackButton = true
-            self.setViewControllers([contentViewController], animated: true)
+            self.setViewControllers([contentViewController], animated: false)
             break
         }
         

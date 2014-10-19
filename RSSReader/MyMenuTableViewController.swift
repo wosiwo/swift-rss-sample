@@ -9,7 +9,8 @@
 import UIKit
 
 class MyMenuTableViewController: UITableViewController {
-    var selectedMenuItem : Int = 0
+    var selectedMenuItem : Int = 0    
+    var siteList = [["name":"oncem","url":"http://onceme.me/rss"],["name":"infoq","url":"http://www.infoq.com/cn/feed/"]]
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,7 +40,7 @@ class MyMenuTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 4
+        return siteList.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -54,8 +55,9 @@ class MyMenuTableViewController: UITableViewController {
             selectedBackgroundView.backgroundColor = UIColor.grayColor().colorWithAlphaComponent(0.2)
             cell!.selectedBackgroundView = selectedBackgroundView
         }
-        
-        cell!.textLabel?.text = "ViewController #\(indexPath.row+1)"
+        var item = siteList[indexPath.row]
+        //cell!.textLabel?.text = "ViewController #\(indexPath.row+1)"
+        cell!.textLabel?.text = item["name"]
         
         return cell!
     }
@@ -68,29 +70,39 @@ class MyMenuTableViewController: UITableViewController {
         
         println("did select row: \(indexPath.row)")
         
+        
+        
+        var item = siteList[indexPath.row]
         if (indexPath.row == selectedMenuItem) {
-            return
+            //return
         }
         selectedMenuItem = indexPath.row
         
         //Present new view controller
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
         var destViewController : UIViewController
+        var view = ViewController()
+        view.url = item["url"]!;
         switch (indexPath.row) {
         case 0:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController1") as UIViewController
-            break
+//            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController1") as UIViewController
+            //
+            fallthrough
         case 1:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController2") as UIViewController
-            break
+//            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController2") as UIViewController
+//            break
+            fallthrough
         case 2:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController3") as UIViewController
-            break
+//            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController3") as UIViewController
+//            break
+            fallthrough
         default:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController4") as UIViewController
-            break
+//            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ViewController4") as UIViewController
+//            break
+            1
+            //view.request(view.url)
         }
-        sideMenuController()?.setContentViewController(destViewController)
+        sideMenuController()?.setContentViewController(view)
     }
     
 
